@@ -16,7 +16,7 @@ def fun1(x, y):
 
 def fun2(x, y):
     """
-    Subtracts two numbers.
+    Subtracts two numbers. 
     Args:
         x (int/float): First number.
         y (int/float): Second number.
