@@ -26,7 +26,7 @@ if __name__=='__main__':
                             n_features=6,
                             n_informative=3,
                             n_redundant=0,
-                            n_repeated=0,
+                            n_repeated=0, 
                             n_classes=2,
                             random_state=0,
                             shuffle=True,
@@ -37,7 +37,7 @@ if __name__=='__main__':
     y_predict = model.predict(X)
     metrics = {"F1_Score":f1_score(y, y_predict)}
     
-    # Save metrics to a JSON file
+    # Save metrics to a JSON  file
 
     if not os.path.exists('metrics/'): 
         # then create it.
